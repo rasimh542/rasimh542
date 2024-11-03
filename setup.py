@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="your_package_name",
+    name="rasim_project",
     version="0.1.0",
     author="Your Name",
     author_email="your-email@example.com",
