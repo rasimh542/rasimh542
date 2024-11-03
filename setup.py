@@ -12,7 +12,7 @@ setup(
     description="A short description of the package",
     long_description=long_description,
     long_description_content_type="text/markdown",  # or "text/x-rst" if using reStructuredText
-    packages=["your_package_name"],
+    packages=find_packages(),
     install_requires=[],
     # Other metadata...
 )
